@@ -21,13 +21,20 @@ def union_find(node, vertex) :
     # 부모 테이블상에서, 부모를 자기 자신으로 초기화
     for i in range(1, node + 1) :
         parent[i] = i
-
+    
+    # 사이클 여부 확인 변수
+    cycle = False
+    
     # union 연산을 각각 수행
     for i in range(vertex) :
         a, b = map(int, input().split())
-        union_parent(parent, a, b)
 
-    return parent
+        if parent[a] is parent[b] :
+            cycle = True
+            break
+
+        union_parent(parent, a, b)
+    return parent, cycle
 
 def print_union(vertex, parent) :
     for i in range(1, vertex + 1) :
