@@ -1,7 +1,7 @@
 # 특정 원소가 속한 집합을 찾기. 경로 압축 기법 적용
 def find_parent(parent, x) :
     # 루트 노드가 아니라면, 루튼 노드를 찾을 때까지 재귀적으로 호출
-    if parent[x] is not x :
+    if parent[x] != x :
         parent[x] = find_parent(parent, parent[x])
     return parent[x]
 
@@ -18,7 +18,7 @@ def union_parent(parent, a, b) :
 def union_find(node, vertex) :
     parent = [0] * (node + 1) # 부모 테이블 초기화
 
-    # 부모 테이블상에서, 부모를 자기 자신으로 초기화
+    # 부모 테이블 상에서, 부모를 자기 자신으로 초기화
     for i in range(1, node + 1) :
         parent[i] = i
     
@@ -29,7 +29,7 @@ def union_find(node, vertex) :
     for i in range(vertex) :
         a, b = map(int, input().split())
 
-        if parent[a] is parent[b] :
+        if parent[a] == parent[b] :
             cycle = True
             break
 
