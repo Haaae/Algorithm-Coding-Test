@@ -8,3 +8,5 @@
 [프로그래머스 - 문자열 압축. 카카오 공채](https://github.com/Haaae/Algorithm-Coding-Test/blob/master/implementation/%EB%AC%B8%EC%9E%90%EC%97%B4_%EC%95%95%EC%B6%95_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4.py)
 
 [백준 - 문자열 압축. 삼성 sw 역량테스트](https://github.com/Haaae/Algorithm-Coding-Test/blob/master/implementation/%EB%B1%80_%EB%B0%B1%EC%A4%80.py)
+
+[프로그래머스 - 기둥과 보. 카카오 공채](https://github.com/Haaae/Algorithm-Coding-Test/blob/master/implementation/%EA%B8%B0%EB%91%A5%EA%B3%BC_%EB%B3%B4.py)
