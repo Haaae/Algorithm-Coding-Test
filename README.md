@@ -10,3 +10,17 @@
 [백준 - 문자열 압축. 삼성 sw 역량테스트](https://github.com/Haaae/Algorithm-Coding-Test/blob/master/implementation/%EB%B1%80_%EB%B0%B1%EC%A4%80.py)
 
 [프로그래머스 - 기둥과 보. 카카오 공채](https://github.com/Haaae/Algorithm-Coding-Test/blob/master/implementation/%EA%B8%B0%EB%91%A5%EA%B3%BC_%EB%B3%B4.py)
+
+## Remind
+
+- iterable 객체 요소 중 추출 갯수에 따른 조합 튜플들을 리스트로 반환: from itertools import combinations
+
+```
+from itertools import combinations
+
+arr = ['A', 'B', 'C']
+nCr = itertools.combinations(arr, 2)
+print(list(nCr))
+
+# 결과 : [('A', 'B'), ('A', 'C'), ('B', 'C')]
+```
