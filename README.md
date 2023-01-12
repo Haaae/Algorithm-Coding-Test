@@ -13,7 +13,7 @@
 
 ## Remind
 
-- iterable 객체 요소 중 추출 갯수에 따른 조합 튜플들을 리스트로 반환: from itertools import combinations
+- iterable 객체 요소 중 추출 개수에 따른 조합 튜플들을 리스트로 반환: from itertools import combinations
 
 ```
 from itertools import combinations
@@ -24,6 +24,19 @@ print(list(nCr))
 
 # 결과 : [('A', 'B'), ('A', 'C'), ('B', 'C')]
 ```
+
+- iterable 객체 요소 중 추출 개수에 따른 순열 조합 튜플들을 리스트로 반환: from itertools import permutations
+
+```
+import itertools
+
+arr = ['A', 'B', 'C']
+nPr = itertools.permutations(arr, 2)
+print(list(nPr))
+
+# 결과 : [('A', 'B'), ('A', 'C'), ('B', 'A'), ('B', 'C'), ('C', 'A'), ('C', 'B')]
+```
+
 
 - 2차원 리스트를 90도 우로 회전시키는 함수
 
