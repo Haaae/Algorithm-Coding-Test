@@ -11,6 +11,8 @@
 
 [프로그래머스 - 기둥과 보. 카카오 공채](https://github.com/Haaae/Algorithm-Coding-Test/blob/master/implementation/%EA%B8%B0%EB%91%A5%EA%B3%BC_%EB%B3%B4.py)
 
+[프로그래머스 - 외벽 점검. 카카오 공채](https://github.com/Haaae/Algorithm-Coding-Test/blob/main/implementation/%EC%99%B8%EB%B2%BD%20%EC%A0%90%EA%B2%80.py)
+
 ## Remind
 
 - iterable 객체 요소 중 추출 개수에 따른 조합 튜플들을 리스트로 반환: from itertools import combinations
