@@ -53,3 +53,15 @@ def rotate_matrix_by_90(matrix) {
             result[j][n - i - 1] = matrix[i][j]
     return result
 ```
+
+- python heapq.heapfiy(iter: iterable)는 내부적으로 binary tree를 사용하므로 인자의 요소를 정렬시키지 않는다.
+
+```
+import heapq
+
+a = [100, 2, 8, 8, 6, 6, 56, 5, 6, 3, 2, 1]
+heapq.heapify(a)
+print(a)
+
+# 결과: [1, 2, 6, 5, 2, 8, 56, 8, 6, 3, 6, 100]
+```
