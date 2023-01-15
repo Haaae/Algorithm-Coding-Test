@@ -13,6 +13,10 @@
 
 [프로그래머스 - 외벽 점검. 카카오 공채](https://github.com/Haaae/Algorithm-Coding-Test/blob/main/implementation/%EC%99%B8%EB%B2%BD%20%EC%A0%90%EA%B2%80.py)
 
+[백준 - 인구 이동. 삼성 sw 역량테스트](https://github.com/Haaae/Algorithm-Coding-Test/blob/master/DFS-BFS/%EC%9D%B8%EA%B5%AC%20%EC%9D%B4%EB%8F%99.py)
+
+[프로그래머스 - 블록 이동하기. 카카오 공채](https://github.com/Haaae/Algorithm-Coding-Test/blob/master/DFS-BFS/%EB%B8%94%EB%A1%9D%20%EC%9D%B4%EB%8F%99%ED%95%98%EA%B8%B0.py)
+
 ## Remind
 
 - iterable 객체 요소 중 추출 개수에 따른 조합 튜플들을 리스트로 반환: from itertools import combinations
@@ -64,4 +68,13 @@ heapq.heapify(a)
 print(a)
 
 # 결과: [1, 2, 6, 5, 2, 8, 56, 8, 6, 3, 6, 100]
+```
+
+- 파이썬은 빈 리스트를 False로 인식한다.
+
+```
+a = []
+if not a :
+   print("Empty!")
+결과: Empty!
 ```
