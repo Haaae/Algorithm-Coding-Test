@@ -15,7 +15,16 @@
 
 [백준 - 인구 이동. 삼성 sw 역량테스트](https://github.com/Haaae/Algorithm-Coding-Test/blob/master/DFS-BFS/%EC%9D%B8%EA%B5%AC%20%EC%9D%B4%EB%8F%99.py)
 
+### BFS, DFS
+
 [프로그래머스 - 블록 이동하기. 카카오 공채](https://github.com/Haaae/Algorithm-Coding-Test/blob/master/DFS-BFS/%EB%B8%94%EB%A1%9D%20%EC%9D%B4%EB%8F%99%ED%95%98%EA%B8%B0.py)
+
+### Sort
+
+[프로그래머스 - 실패율. 카카오 공채](https://github.com/Haaae/Algorithm-Coding-Test/blob/master/sort/%EC%8B%A4%ED%8C%A8%EC%9C%A8.py)
+
+[백준 - 카드 정렬하기.](https://github.com/Haaae/Algorithm-Coding-Test/blob/master/sort/%EC%B9%B4%EB%93%9C%20%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0.py)
+
 
 ## Remind
 
@@ -77,4 +86,14 @@ a = []
 if not a :
    print("Empty!")
 결과: Empty!
+```
+
+- 리스트 내 숫자의 중간값 구하기
+
+```
+numbers = [1, 2, 3, 4, 5]
+length = len(numbers)
+
+print(numbers[(length - 1) // 2])
+결과: 3(index: 2)
 ```
