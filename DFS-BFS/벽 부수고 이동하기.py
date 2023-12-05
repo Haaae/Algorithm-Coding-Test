@@ -35,8 +35,6 @@ def bfs():
             if nx < 0 or ny < 0 or nx >= n or ny >= m:
                 continue
 
-            tmp = graph[nx][ny] == EMPTY
-            tmp2 = previous_distance + 1 < distances[break_wall_status][nx][ny]
             if graph[nx][ny] == EMPTY and previous_distance + 1 < distances[break_wall_status][nx][ny]:
                 distances[break_wall_status][nx][ny] = previous_distance + 1
                 queue.append((nx, ny, break_wall_status, distances[break_wall_status][nx][ny]))
